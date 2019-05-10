@@ -1,0 +1,94 @@
+
+#rollDie2{
+  display: none;
+}
+.body{
+  background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.screen{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100vw;
+  height: 50vh;
+}
+.mn{
+  background: #ee9ca7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.snm{
+  text-align: center;
+}
+.playRight{
+  height: 100%;
+  background: green;
+}
+.mic{
+  text-align: center;
+}
+.playLeft{
+  height: 100%;
+  background: orange;
+}
+.gameRules{
+  padding-left: 7%;
+  padding-top: 4.5%;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.herader{
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+  font-size: 9em;
+  padding-top: 2%;
+}
+#player1Score{
+  padding-top: 15%;
+  padding-left: 15%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#player2Score{
+  padding-top: 15%;
+  padding-left: 15%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#roll1Total{
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+  margin-top: 1%;
+}
+#roll2Total{
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+  margin-top: 1%;
+}
+#player1Final{
+  margin-top: 5%;
+  margin-left: 23%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+#player2Final{
+  margin-top: 5%;
+  margin-left: 23%;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+form{
+  margin-top: 2%;
+  margin-left: 2%;
+}
