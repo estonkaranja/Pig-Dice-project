@@ -2,37 +2,28 @@
 #rollDie2{
   display: none;
 }
-.body{
-  background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 .screen{
   margin-top: 2%;
   margin-bottom: 2%;
   width: 100vw;
   height: 50vh;
 }
-.mn{
-  background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.containerflex{
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fremptongames.files.wordpress.com%2F2017%2F09%2Fdice-roll.jpg&f=1");
 }
 .snm{
   text-align: center;
 }
 .playRight{
   height: 100%;
-  background: green;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fdavidlewisdigital.com%2Fold%2Fimages%2FFolio%2Fmisc%2Fdice.jpg&f=1");
 }
 .mic{
   text-align: center;
 }
 .playLeft{
   height: 100%;
-  background: orange;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fremptongames.files.wordpress.com%2F2017%2F09%2Fdice-roll.jpg&f=1");
 }
 .gameRules{
   padding-left: 7%;
