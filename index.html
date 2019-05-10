@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pig-Dice</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  
+  <div class="container-flex">
+    <hr>
+    <br>
+    <div class="herader">Welcome To PigDice</div>
+    <div class="snm">
+    <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fu2exqw3jFwI%2Fmaxresdefault.jpg&f=1">
+    <br>
+    <br>
+    </div>
+    <br>
+    <hr>
+    <div class="gameRules">
+    The following are the rules of the game:
+    <ul>
+      <li>You must first Enter Both players names before you play</li>
+      <li>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</li>
+      <ul>
+        <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.
+        </li>
+        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.
+        </li>
+
+        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+      </ul>
+      The first player to get 100 points or above wins the game.
+    </ul>
+ 
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="mic">
+    <form id="rollDice" class="form-inline">
+      <div class="form-group">
+        <label for="">Player 1</label>
+        <input type="text" name="" id="player1" class="form-control" value="">
+      </div>
+      <div class="form-group">
+        <label for="">Player 2</label>
+        <input type="text" name="" id="player2" class="form-control" value="">
+      </div>
+      <button type="submit" id="submit" class="btn btn-success" name="button">Register</button>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div class="container-flex">
+      <div class="row screen">
+        <div class="col-sm-6 playRight">
+          <div class="pl1">
+            <div id="roll1Total"></div>
+            <div id="player1Score"></div>
+            <div id="player1Final"></div>
+          </div>
+        </div>
+        <div class="col-sm-6 playLeft">
+          <div class="pl2">
+            <div id="roll2Total"></div>
+            <div id="player2Score"></div>
+            <div id="player2Final"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <button type="submit" class="btn btn-danger" id="rollDie1">Roll Player 1</button>
+      </div>
+      <div class="col-sm-4">
+        <button type="submit" class="btn btn-info" id="hold">Hold!</button>
+      </div>
+      <div class="col-sm-4">
+        <button type="submit" class="btn btn-danger" id="rollDie2">Roll Player 2</button>
+      </div>
+      <div id="play1score"></div>
+      <div id="play2score"></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <!-- <div id="player1Final"></div> -->
+      </div>
+      <div class="col-sm-6">
+        <div id="player2Final"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
